@@ -1,7 +1,6 @@
 import Button from "@material-ui/core/Button";
 // Types
 
-import { CartItemType } from "../Types";
 import { Props } from "../Types";
 
 const Item: React.FC<Props> = ({ item, handleAddToCart }) => (
